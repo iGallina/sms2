@@ -112,3 +112,47 @@ Started GET "/" for 127.0.0.1 at Sun Feb 20 15:31:05 -0300 2011
   Processing by SmsManagerController#index as HTML
 Rendered sms_manager/index.html.erb within layouts/application (2.4ms)
 Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Feb 20 15:45:41 -0300 2011
+  Processing by SmsManagerController#index as HTML
+Rendered sms_manager/index.html.erb within layouts/application (47.9ms)
+Completed 200 OK in 54ms (Views: 53.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at Sun Feb 20 15:45:42 -0300 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/stylesheets/images/img01.jpg" for 127.0.0.1 at Sun Feb 20 15:45:42 -0300 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img01.jpg"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Feb 20 15:49:30 -0300 2011
+  Processing by SmsManagerController#index as HTML
+Rendered sms_manager/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at Sun Feb 20 15:49:30 -0300 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/stylesheets/images/img01.jpg" for 127.0.0.1 at Sun Feb 20 15:49:30 -0300 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img01.jpg"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
