@@ -1,0 +1,24 @@
+development:
+    adapter: postgresql
+    encoding: unicode
+    database: sms_devel
+    username: postgres
+    password: postgres
+    host: localhost
+
+# Banco de teste. Nao confie em salvar nada aqui
+test:
+    adapter: postgresql
+    encoding: unicode
+    database: sms_test
+    username: postgres
+    password: postgres
+    host: 127.0.0.1
+
+production:
+    adapter: postgresql
+    encoding: unicode
+    database: sms_prod
+    username: postgres
+    password: postgres
+    host: localhost
