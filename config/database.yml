@@ -1,7 +1,6 @@
 development:
     adapter: postgresql
-    encoding: unicode
-    database: sms_devel
+    database: confirmefacil_devel
     username: postgres
     password: postgres
     host: localhost
@@ -9,16 +8,14 @@ development:
 # Banco de teste. Nao confie em salvar nada aqui
 test:
     adapter: postgresql
-    encoding: unicode
-    database: sms_test
+    database: confirmefacil_test
     username: postgres
     password: postgres
     host: 127.0.0.1
 
 production:
     adapter: postgresql
-    encoding: unicode
-    database: sms_prod
-    username: postgres
-    password: postgres
-    host: localhost
+    database: ateixeira1
+    username: ateixeira1
+    password: uanauana
+    host: pgsql.ateixeira.com.br
